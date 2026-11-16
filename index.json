@@ -1,0 +1,186 @@
+{
+  "format": 1,
+  "title": {
+    "en": "sixzjd DSH plugins",
+    "zh": "sixzjd 的 DSH 插件"
+  },
+  "description": {
+    "en": "Community DSH plugins by sixzjd",
+    "zh": "sixzjd 自研的 DSH 社区插件"
+  },
+  "metadata": {
+    "categories": {
+      "ui": {
+        "title": {
+          "en": "UI Enhancements",
+          "zh": "界面增强"
+        }
+      },
+      "models": {
+        "title": {
+          "en": "Models & Providers",
+          "zh": "模型与账号接入"
+        }
+      },
+      "usage": {
+        "title": {
+          "en": "Usage & Billing",
+          "zh": "用量与计费"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-folder-attach",
+      "title": {
+        "en": "Folder Attach",
+        "zh": "文件夹附件"
+      },
+      "description": {
+        "en": "Drag folders into the DSH web composer instead of hitting 'only the desktop app supports folders': host folder dialog, /folder command, and drag/paste into @path mentions. Works in browser and desktop.",
+        "zh": "把文件夹拖进 DSH 网页输入框，提供宿主文件夹对话框、/folder 命令与 @路径 提及，浏览器与桌面端都能用。"
+      },
+      "author": "sixzjd",
+      "homepage": "https://github.com/sixzjd/dsh-folder-attach",
+      "repository": {
+        "url": "https://github.com/sixzjd/dsh-folder-attach"
+      },
+      "icon": "icons/dsh-folder-attach.svg",
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "composer",
+          "attachment",
+          "folder"
+        ],
+        "category": "ui"
+      },
+      "versions": [
+        {
+          "version": "0.1.5",
+          "publishTimestamp": 1794825407,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@sixzjd/dsh-workbuddy-connect",
+      "title": {
+        "en": "WorkBuddy Connect",
+        "zh": "WorkBuddy 连接器"
+      },
+      "description": {
+        "en": "Bring WorkBuddy (CN) subscription models into DSH through an in-process loopback shim, with an account settings card and a live model catalog.",
+        "zh": "把 WorkBuddy（国内版）订阅模型通过进程内 loopback shim 接入 DSH，配套账号管理设置卡片与实时模型目录。"
+      },
+      "author": "sixzjd",
+      "homepage": "https://github.com/sixzjd/dsh-workbuddy-connect",
+      "repository": {
+        "url": "https://github.com/sixzjd/dsh-workbuddy-connect"
+      },
+      "icon": "icons/dsh-workbuddy-connect.svg",
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "model-provider",
+          "workbuddy",
+          "connector"
+        ],
+        "category": "models"
+      },
+      "versions": [
+        {
+          "version": "0.3.2",
+          "publishTimestamp": 1794824178,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@sixzjd/dsh-opencode-connect",
+      "title": {
+        "en": "OpenCode Connect",
+        "zh": "OpenCode 连接器"
+      },
+      "description": {
+        "en": "Bring OpenCode Zen models (incl. limited-time free pool) into DSH via an in-process loopback shim with automatic model fallback; no external process, no config edits.",
+        "zh": "把 OpenCode Zen 模型（含限时免费模型池）通过进程内 loopback shim 接入 DSH，支持自动模型 fallback，无需外部进程或改配置文件。"
+      },
+      "author": "sixzjd",
+      "homepage": "https://github.com/sixzjd/dsh-opencode-connect",
+      "repository": {
+        "url": "https://github.com/sixzjd/dsh-opencode-connect"
+      },
+      "icon": "icons/dsh-opencode-connect.svg",
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "model-provider",
+          "opencode",
+          "connector"
+        ],
+        "category": "models"
+      },
+      "versions": [
+        {
+          "version": "0.3.1",
+          "publishTimestamp": 1794662503,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@sixzjd/dsh-usage-dashboard",
+      "title": {
+        "en": "Usage Dashboard",
+        "zh": "用量看板"
+      },
+      "description": {
+        "en": "DSH usage dashboard: per-model / per-session / per-date token and cost statistics, cache-hit rate and balance widgets in the Web UI.",
+        "zh": "DSH 用量看板：在 Web UI 展示按模型/会话/日期的 token 用量与成本统计、缓存命中率与余额组件。"
+      },
+      "author": "sixzjd",
+      "homepage": "https://github.com/sixzjd/dsh-usage-dashboard",
+      "repository": {
+        "url": "https://github.com/sixzjd/dsh-usage-dashboard"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "usage",
+          "billing",
+          "dashboard"
+        ],
+        "category": "usage"
+      },
+      "versions": [
+        {
+          "version": "0.6.5",
+          "publishTimestamp": 1794829306,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
